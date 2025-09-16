@@ -3,7 +3,8 @@
 A minimalist, terminal-inspired browser game where three of four historical events or people share an overlapping time period—and you have to spot the impostor. The project is being built to run entirely as a static site, making it ideal for deployment on GitHub Pages.
 
 ## Project Status
-We are currently documenting the architecture and development plan before implementing the interactive game. No game assets or logic have been committed yet.
+The terminal-inspired shell of the game is now in place, complete with a lightweight gameplay loop, score tracking, and a sample
+dataset. Rounds are built entirely client-side from static JSON so the experience still works on GitHub Pages.
 
 ## Key Requirements
 - **Static hosting:** All code must run client-side so the game can be published via GitHub Pages without additional infrastructure.
@@ -18,9 +19,9 @@ We are currently documenting the architecture and development plan before implem
 - [`docs/DEVELOPMENT_PLAN.md`](docs/DEVELOPMENT_PLAN.md) — Roadmap for bringing the game to life.
 
 ## Next Steps
-1. Scaffold the static site with HTML, CSS, and vanilla JavaScript modules.
-2. Implement data loading helpers that pull from `data/events.json` while running on GitHub Pages.
-3. Build the gameplay loop, score tracking, and feedback UI.
-4. Populate the dataset with verified historical entries.
+1. Expand the UI polish and add accessibility refinements (ARIA live regions, reduced motion mode).
+2. Grow the data helpers to support difficulty tuning and future dataset packs.
+3. Layer in richer feedback (timeline visualizations, streak celebrations) and persistent settings.
+4. Curate and verify a larger historical dataset with citations.
 
 Contributions are welcome—please coordinate on documentation first to ensure new features align with the static hosting strategy.

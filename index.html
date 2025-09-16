@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Overlap</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <main class="terminal" id="app" tabindex="0">
+      <header class="terminal__header">
+        <h1 class="terminal__title">Overlap</h1>
+        <p class="terminal__subtitle">Find the timeline imposter.</p>
+      </header>
+      <section class="terminal__score" aria-live="polite">
+        <div>Round: <span id="round-counter">1</span></div>
+        <div>Score: <span id="score-counter">0</span></div>
+        <div>Streak: <span id="streak-counter">0</span></div>
+      </section>
+      <section class="terminal__prompt" aria-live="polite">
+        <p id="prompt-text">Loading timeline data…</p>
+      </section>
+      <section class="terminal__choices" id="choices" role="list">
+        <!-- Options injected by the UI module -->
+      </section>
+      <section class="terminal__feedback" aria-live="polite">
+        <p id="feedback-text"></p>
+      </section>
+      <footer class="terminal__footer">
+        <button id="next-round" class="terminal__button" hidden>Next round</button>
+      </footer>
+    </main>
+    <script type="module" src="./src/game.js"></script>
+  </body>
+</html>

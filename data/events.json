@@ -1,0 +1,182 @@
+[
+  {
+    "id": "katherine-johnson",
+    "name": "Katherine Johnson",
+    "type": "person",
+    "category": "Person — Mathematician",
+    "start": "1918-08-26",
+    "end": "2020-02-24",
+    "blurb": "NASA mathematician who calculated trajectories for Mercury and Apollo missions."
+  },
+  {
+    "id": "space-race",
+    "name": "Space Race",
+    "type": "event_range",
+    "category": "Geopolitics — Space Race",
+    "start": "1957-10-04",
+    "end": "1975-07-17",
+    "blurb": "Cold War competition between the United States and the Soviet Union for supremacy in spaceflight capabilities."
+  },
+  {
+    "id": "beatles-on-ed-sullivan",
+    "name": "The Beatles on Ed Sullivan",
+    "type": "event_single",
+    "category": "Pop Culture — Television",
+    "start": "1964-02-09",
+    "end": null,
+    "blurb": "The Beatles made their iconic American television debut, drawing an audience of 73 million viewers."
+  },
+  {
+    "id": "apollo-11-mission",
+    "name": "Apollo 11 Moon Landing",
+    "type": "event_range",
+    "category": "Space Exploration — Moon Landing",
+    "start": "1969-07-16",
+    "end": "1969-07-24",
+    "blurb": "Neil Armstrong, Buzz Aldrin, and Michael Collins completed the first crewed lunar landing."
+  },
+  {
+    "id": "steve-jobs",
+    "name": "Steve Jobs",
+    "type": "person",
+    "category": "Person — Entrepreneur",
+    "start": "1955-02-24",
+    "end": "2011-10-05",
+    "blurb": "Co-founder of Apple whose design vision helped popularize personal computing and smartphones."
+  },
+  {
+    "id": "personal-computer-boom",
+    "name": "Personal Computer Boom",
+    "type": "event_range",
+    "category": "Technology — Personal Computing",
+    "start": "1977-01-01",
+    "end": "1985-12-31",
+    "blurb": "Rapid adoption of affordable microcomputers such as the Apple II, IBM PC, and Commodore 64."
+  },
+  {
+    "id": "mtv-launch",
+    "name": "MTV Launches",
+    "type": "event_single",
+    "category": "Pop Culture — Music Television",
+    "start": "1981-08-01",
+    "end": null,
+    "blurb": "MTV began broadcasting music videos 24/7, reshaping global pop culture and the music industry."
+  },
+  {
+    "id": "nes-us-release",
+    "name": "NES Launches in North America",
+    "type": "event_range",
+    "category": "Gaming — Consoles",
+    "start": "1985-10-18",
+    "end": "1986-09-01",
+    "blurb": "Nintendo rolled out the Entertainment System across North America, reviving the video game industry."
+  },
+  {
+    "id": "amelia-earhart",
+    "name": "Amelia Earhart",
+    "type": "person",
+    "category": "Person — Aviator",
+    "start": "1897-07-24",
+    "end": "1937-07-02",
+    "blurb": "Aviation pioneer famed for solo flights across the Atlantic and record-setting aerial feats."
+  },
+  {
+    "id": "harlem-renaissance",
+    "name": "Harlem Renaissance",
+    "type": "event_range",
+    "category": "Arts — Cultural Movement",
+    "start": "1918-01-01",
+    "end": "1937-12-31",
+    "blurb": "A flourishing of African American arts, literature, and music centered in Harlem, New York."
+  },
+  {
+    "id": "talking-pictures-debut",
+    "name": "Debut of Talking Pictures",
+    "type": "event_single",
+    "category": "Technology — Film",
+    "start": "1927-10-06",
+    "end": null,
+    "blurb": "Warner Bros. released 'The Jazz Singer,' introducing synchronized sound to feature films."
+  },
+  {
+    "id": "ny-worlds-fair-1939",
+    "name": "1939 New York World's Fair",
+    "type": "event_range",
+    "category": "Events — World's Fair",
+    "start": "1939-04-30",
+    "end": "1940-10-27",
+    "blurb": "The fair showcased 'The World of Tomorrow' with futuristic technology and global pavilions."
+  },
+  {
+    "id": "tim-berners-lee",
+    "name": "Tim Berners-Lee",
+    "type": "person",
+    "category": "Person — Computer Scientist",
+    "start": "1955-06-08",
+    "end": "2023-12-31",
+    "blurb": "Inventor of the World Wide Web and advocate for an open, accessible internet."
+  },
+  {
+    "id": "dotcom-boom",
+    "name": "Dot-com Boom",
+    "type": "event_range",
+    "category": "Economy — Internet",
+    "start": "1995-01-01",
+    "end": "2001-03-10",
+    "blurb": "Period of massive growth and speculation in internet-based companies leading up to the 2001 crash."
+  },
+  {
+    "id": "google-founding",
+    "name": "Google Founded",
+    "type": "event_single",
+    "category": "Technology — Search",
+    "start": "1998-09-04",
+    "end": null,
+    "blurb": "Larry Page and Sergey Brin incorporated Google, launching a new era of web search."
+  },
+  {
+    "id": "facebook-launch",
+    "name": "Facebook Launches",
+    "type": "event_single",
+    "category": "Social Media — Networking",
+    "start": "2004-02-04",
+    "end": null,
+    "blurb": "Mark Zuckerberg and classmates opened Thefacebook to Harvard students, sparking rapid expansion."
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "type": "person",
+    "category": "Person — Polymath",
+    "start": "1452-04-15",
+    "end": "1519-05-02",
+    "blurb": "Renaissance artist and inventor whose notebooks bridged art, science, and engineering."
+  },
+  {
+    "id": "italian-wars",
+    "name": "Italian Wars",
+    "type": "event_range",
+    "category": "Geopolitics — Italian Wars",
+    "start": "1494-01-01",
+    "end": "1559-04-03",
+    "blurb": "Series of conflicts among European powers vying for control of the Italian Peninsula."
+  },
+  {
+    "id": "sistine-chapel-ceiling",
+    "name": "Sistine Chapel Ceiling Painted",
+    "type": "event_range",
+    "category": "Art — Masterwork",
+    "start": "1508-05-10",
+    "end": "1512-10-31",
+    "blurb": "Michelangelo painted the Sistine Chapel ceiling, creating one of the most renowned artworks in history."
+  },
+  {
+    "id": "magellan-circumnavigation",
+    "name": "Magellan's Circumnavigation",
+    "type": "event_range",
+    "category": "Exploration — Voyages",
+    "start": "1519-08-10",
+    "end": "1522-09-06",
+    "blurb": "The expedition led by Ferdinand Magellan completed the first circumnavigation of the Earth."
+  }
+]

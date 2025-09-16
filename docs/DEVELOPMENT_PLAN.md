@@ -3,15 +3,15 @@
 This roadmap outlines how to move from an empty repository to a fully playable historical overlap game that runs on GitHub Pages.
 
 ## Phase 1 — Project Scaffolding
-- [ ] Set up basic project structure described in `ARCHITECTURE.md`.
-- [ ] Create `index.html` with a focusable terminal-style container and placeholder text.
-- [ ] Add `styles/main.css` with minimal dark theme styling and responsive typography.
-- [ ] Implement `src/game.js` with a simple loop that displays static mocked data to validate UI interactions.
+- [x] Set up basic project structure described in `ARCHITECTURE.md`.
+- [x] Create `index.html` with a focusable terminal-style container and placeholder text.
+- [x] Add `styles/main.css` with minimal dark theme styling and responsive typography.
+- [x] Implement `src/game.js` with a simple loop that displays static mocked data to validate UI interactions.
 - [ ] Add automated formatting/linting (Prettier + ESLint) configured to work with static hosting.
 
 ## Phase 2 — Data Infrastructure
-- [ ] Create empty `data/events.json` following the schema in `DATA_MODEL.md`.
-- [ ] Implement `data-store.js` utilities:
+- [x] Create empty `data/events.json` following the schema in `DATA_MODEL.md`.
+- [x] Implement `data-store.js` utilities:
   - Fetch JSON files relative to the site root (compatible with GitHub Pages).
   - Normalize dates into comparable numeric ranges.
   - Provide helper functions to pull random combinations of overlapping + outlier items.
