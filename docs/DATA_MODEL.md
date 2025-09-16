@@ -7,10 +7,14 @@ The game relies on a small, file-based "database" that can be served as static J
 ### TimelineItem
 Represents any selectable item that can appear in a round.
 
+Categories are intentionally granular ("Person — Aviator", "Technology — Search") so that the round builder can pull a diverse
+mix of people, inventions, cultural moments, and geopolitical events for every game.
+
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
 | `id` | `string` | ✅ | Unique identifier. Use a slug-friendly format (`"world-war-ii"`). |
 | `name` | `string` | ✅ | Display name shown to the player. |
+| `category` | `string` | ✅ | Domain grouping (e.g., "Person — Aviator", "Technology — Search") used to balance each round's options. |
 | `type` | `"event_range" \| "event_single" \| "person"` | ✅ | Determines how dates are interpreted. |
 | `start` | `string` | ✅ | ISO-like date (`YYYY`, `YYYY-MM`, or `YYYY-MM-DD`). For single-date events or people, this equals the key date (birth, invention, etc.). |
 | `end` | `string \| null` | ✅ | Only meaningful for `event_range` or people (death). Must be `null` for `event_single`. |
@@ -40,6 +44,7 @@ data/
   {
     "id": "world-war-ii",
     "name": "World War II",
+    "category": "Geopolitics — Global Conflict",
     "type": "event_range",
     "start": "1939-09-01",
     "end": "1945-09-02",
@@ -48,6 +53,7 @@ data/
   {
     "id": "super-soaker",
     "name": "Invention of the Super Soaker",
+    "category": "Invention — Toys",
     "type": "event_single",
     "start": "1989-01-01",
     "end": null,
